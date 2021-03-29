@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+
+<title>微音文化网络科技</title>
+
+
+<script type="text/javascript">
+		
+
+		function checkOut(){
+		 	var userName = document.getElementById("userName").value;
+            var password = document.getElementById("password").value;
+            var repassword = document.getElementById("repassword").value;
+            if(!$("#agreementFlag").is(':checked')){
+            	alert("您必须同意用户服务协议才能注册");
+                return;
+            }
+             if (userName == "") {
+                alert("请填写用户ID！");
+                return;
+            } 
+            if(password == ""){
+				alert("请填写密码！");
+                return;
+			}
+			if(repassword == ""){
+				alert("请确认密码！");
+                return;
+			}
+			if(repassword!=password){
+				alert("密码输入不一致！");
+                return;
+			}
+			var idCard = document.getElementById("idCard").value;
+			if(idCard=='' || idCard == null){
+				alert("请填写身份证号！");
+                return;
+			}
+			
+		    var reg = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;  
+		    if(reg.test(idCard) == false)  
+		    {  
+		       alert("身份证输入不合法");  
+		       return  false;  
+		    }  
+			
+			
+			var realName = document.getElementById("realName").value;
+			if(realName=='' || realName == null){
+				alert("请填写真实姓名！");
+                return;
+			}
+			var phone = document.getElementById("phone").value;
+			if(phone=='' || phone == null){
+				alert("请填写联系电话！");
+                return;
+			}
+			alert("注册成功，您亦可进入登录页面！");
+			window.location="login.html"/*tpa=login.html*/;
+		}
+
+
+</script>
+
+
+<link media="all" href="index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	
+	
+	
+	
+
+	<div class="pathandmenu">
+		<div class="p_center">
+			<div class="path">
+				<ul>
+					<li><a href="index.html" tppabs="index.html">首页</a></li>
+					<li class="line">&gt;</li>
+					<li>注册</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div class="cont">
+    	<div class="signup">
+			<div class="lo_title">注册<span class="c">SIGNUP</span></div>
+			<form id="loginForm" action="http://www.techbridge.com.cn/regist.action" method="post">
+			<dl class="text_cl ">
+				<dt>用户ID</dt>
+				<dd><input id="userName" name="userName" class="inputext" value="" type="text"></dd>
+				<dd class="tip">必填</dd>
+			</dl>
+			<dl class="text_cl">
+				<dt>密  码</dt>
+				<dd><input id="password" name="password" class="inputext" type="password"></dd>
+				<dd class="tip">必填，由6-16位英文字母及数字组成</dd>
+			</dl>
+			<dl class="text_cl">
+				<dt>重复密码</dt>
+				<dd><input id="repassword" name="repassword" class="inputext" type="password"></dd>
+				<dd class="tip">必填，由6-16位英文字母及数字组成</dd>
+			</dl>
+			<dl class="text_cl ">
+				<dt>身份证号</dt>
+				<dd><input id="idCard" name="idCard" class="inputext" value="" type="text"></dd>
+				<dd class="tip">必填</dd>
+			</dl>
+			<dl class="text_cl ">
+				<dt>真实姓名</dt>
+				<dd><input id="realName" name="realName" class="inputext" value="" type="text"></dd>
+				<dd class="tip">必填</dd>
+			</dl>
+			<dl class="text_cl ">
+				<dt>联系电话</dt>
+				<dd><input id="phone" name="phone" class="inputext" value="" type="text"></dd>
+				<dd class="tip">必填</dd>
+			</dl>
+			<dl class="text_cl ">
+				<dt></dt>
+				<dd>
+				<input id="agreementFlag" name="agreementFlag" onclick="agreementFlag();" type="checkbox"></dd>
+				<dd class="login">我已阅读并同意<a href="agreement.html" target="_top"><font color="#0000FF">《重庆市微音文化传媒有限公司用户服务协议》</font></a></dd>
+			<dd>和<a href="wenhua.html" target="_top"><font color="#0000FF">《文化部网络游戏服务格式化协议必备条款》</font></a></dd>
+			</dl>
+			<dl class="text_cl">
+				<dt>&nbsp;</dt>
+				<dd><input id="button_regist" class="btn_cl" value="注册" onclick="checkOut();" type="button"></dd>
+			</dl>
+			</form>
+		</div>
+        <div class="login">
+			<div>是否已有账号？如已注册，请直接登录</div>
+			<div class="a_btn"><a href="login.html" tppabs="login.html"> 登录</a></div><a href="login.html" tppabs="login.html">
+		</a></div><a href="login.html" tppabs="login.html">
+		
+	</a></div><a href="login.html" tppabs="login.html">
+	
+ 	
+   </a><div class="footer"><a href="login.html" tppabs="login.html">
+		</a><div class="ftinfo"><a href="login.html" tppabs="login.html">
+			</a>
+			<p>健康游戏忠告：抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防上当受骗，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活</p>
+			<p>公司名称：重庆市微音文化传媒有限公司</p>
+			<p>地址：重庆市渝北区金开大道西段210号3楼3号附19-01-000228号
+</p>
+			<div style="width: 300px; margin: 0px auto; padding: 20px 0px;">
+		 		<a target="_top" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802003014%20%20\n\n%E8%AF%A5%E6%96%87%E4%BB%B6%E6%97%A0%E6%B3%95%E7%94%A8%20Teleport%20Ultra%20%E4%B8%8B%E8%BD%BD,%20%E5%9B%A0%E4%B8%BA%20%E5%AE%83%E6%98%AF%E4%B8%80%E4%B8%AA%E5%9F%9F%E6%88%96%E8%B7%AF%E5%BE%84%E5%A4%96%E9%83%A8%E8%A2%AB%E8%AE%BE%E7%BD%AE%E4%B8%BA%E5%AE%83%E7%9A%84%E5%90%AF%E5%A7%8B%E5%9C%B0%E5%9D%80%E7%9A%84%E5%9C%B0%E5%9D%80%E3%80%82%20%20\n\n%E4%BD%A0%E6%83%B3%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E6%89%93%E5%BC%80%E5%AE%83?" tppabs="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802003014" style="display: inline-block; text-decoration: none; height: 20px; line-height: 20px;"></a>
+		 	</div>
+		</div>
+	</div>
+<script src="js/jquery-2.1.3.js"></script>
+</body>
+</html>

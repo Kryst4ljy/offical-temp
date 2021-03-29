@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.d-btn{cursor:pointer;}
+#btn-info{width:151px;height:190px;position:absolute;left:0;bottom:35px;z-index:9999;background:#efefef;border-radius:5px;overflow:visible;font-size:12px;font-weight:100;color:#000;line-height:18px;display:none;border-right:1px solid #c0c0c0;border-bottom:1px solid #c0c0c0;}
+#btn-info2{width:151px;height:190px;position:absolute;left:0;bottom:35px;z-index:9999;background:#ACC28F;border-radius:5px;overflow:visible;font-size:12px;font-weight:100;color:#000;line-height:18px;display:none;border-right:1px solid #93AA74;border-bottom:1px solid #93AA74;}
+#btn-info .ewm,#btn-info2 .ewm{width:80px;height:80px;overflow:hidden;display:block;padding:10px;position:absolute;top:25px;left:25px;background:#fff;}
+	.ewm img{width:80px;padding:0;margint:0;}
+	.w{width:130px;padding:10px 10px;text-align:left;color:#999;position:absolute;bottom:0;left:0;}
+	 #btn-info2 .w{color:#fff;}

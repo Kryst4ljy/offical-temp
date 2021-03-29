@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Description" content="重庆市微音文化传媒有限公司（以下简称“微音文化”）成立于2017年，是一家专注于手机游戏发行和运营服务的新锐游戏公司，成立之初即获得顶级风投数千万元投资。" />
+    <meta name="keywords" content="重庆市微音文化传媒有限公司" />
+    <title>微音文化支付 - 重庆市微音文化传媒有限公司</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/pay.css" />
+    <link rel="shortcut icon" href="favicon.ico"/>
+</head>
+
+<body>
+
+<!--定义微音文化官网的头部视图-->
+<div class="header">
+    <div class="logo">
+        <a href="index.html"><img src="images/logo.png" class="headerlogo"/></a>
+    </div>
+    <div class="topnav">
+        <a href="index.html" class="">首页</a>
+        <a href="cp.html"  class="">游戏</a>
+        <a style="display:none"  href="game.html"  class="">新闻</a>
+        <!-- <a href="about.html"  class="">相关</a> -->
+        <!-- <a href="contact.html"  class="">合作</a> -->
+        <!-- <a href="jobs.html"  class="">招聘</a> -->
+<!--        <a href="pay.html"  class="nav_sel">支付</a>-->
+    </div>
+    <div class="clear_b"></div>
+</div>
+
+
+
+
+
+        <div class="childbanner">
+            <div class="bannermain">
+                微音文化支付
+            </div>
+        </div>
+
+
+            <div class="pubwid">
+                <div class="pay_container">
+                    <div class="pay_left">
+                        <div class="pay_left_div">
+                            <h3 class="pay_div_title">请选择充值方式</h3>
+                            <ul class="pay_ul_type" id="select_pay_type">
+                                <li><a href="javascript:void(0)" class="pay9999 active" title="微信支付">微信支付</a></li>
+                                <li><a href="javascript:void(0)" class="pay49" title="支付宝">支付宝</a></li>
+                                <li><a href="javascript:void(0)" class="pay45" title="银行卡">银行卡</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pay_right">
+                        <div class="pay_righ_con">
+                            <h2 class="pay_div_title pay_right_top">您正在微音文化平台使用<strong>微信充值</strong>方式充值</h2>
+                            <div class="pay_infocon">
+                                <div style="color:red;text-align:center;"><b>暂不开放充值功能</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        <!--定义微音文化官网的尾部视图-->
+        <div class="footer">
+            <div class="f_txt">
+                重庆市微音文化传媒有限公司 <a href="http://www.miitbeian.gov.cn/"></a>
+                地址:重庆市渝北区金开大道西段210号3楼3号附19-01-000228号 <a style='display:none'  href="http://sq.ccm.gov.cn/ccnt/sczr/service/business/emark/toDetail/7f69726c7ac74d8f9cad720d635d72ff" target="_blank"><img width="25px" height="25px" src="images/wenhuajingying.png"></a></p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="http://res.ijunhai.com/uploadfile/res/jquery-2.1.3.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $(".pay_ul_type li a").unbind("click").click(function() {
+            $(".pay_ul_type li a").removeClass("active");
+            $(this).addClass("active");
+            var t = $(this).attr('title');
+            t = t + '充值';
+            $('.pay_right_top strong').text(t);
+        });
+    });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

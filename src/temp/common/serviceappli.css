@@ -1,0 +1,108 @@
+/* ::::: http://www.beinterest.cn/biqu_mf/style/css.css ::::: */
+
+body { font-family: "Microsoft Yahei" ! important; margin: 0px; padding: 0px; }
+img { border: 0px none; }
+.top_leader { width: 100%; background: rgb(242, 242, 242) none repeat scroll 0% 0%; }
+.t_center { width: 1000px; height: 34px; line-height: 34px; color: rgb(128, 128, 128); font-size: 12px; margin: 0px auto; overflow: hidden; clear: both; }
+.t_center .left_l { float: left; }
+.t_center .right_l { float: right; }
+.t_center .right_l ul { margin: 0px; padding: 0px; list-style: outside none none; }
+.t_center .right_l ul li { float: left; }
+.t_center .right_l ul li.line { width: 1px; height: 34px; background: transparent url('t_line.gif') no-repeat scroll 0% 0%; }
+.t_center .right_l ul li a { text-decoration: none; color: rgb(128, 128, 128); margin: 0px 20px; }
+.t_center .right_l ul li a:hover { color: rgb(221, 68, 65); }
+.nav { width: 1000px; height: 82px; line-height: 82px; margin: 0px auto; clear: both; }
+.nav .lg { margin: auto; float: left; height: 82px; }
+.nav .menu { float: right; font-size: 16px; }
+.menu ul { list-style: outside none none; padding: 0px; margin: 0px; }
+.menu ul li { float: left; height: 82px; line-height: 82px; }
+.menu ul li a { display: block; color: rgb(65, 65, 65); text-decoration: none; padding: 0px 20px; }
+.menu ul li a:hover { background: rgb(221, 67, 65) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.menu ul li a.hh { background: rgb(221, 67, 65) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.pathandmenu { position: relative; z-index: 1; margin: 10px 0px 20px; padding: 0px; width: 100%; height: 50px; line-height: 50px; border-bottom: 1px solid rgb(231, 228, 228); }
+.p_center { width: 1000px; height: 50px; margin: 0px auto; font-size: 14px; color: rgb(153, 153, 153); background: transparent url('l.gif') no-repeat scroll left center; clear: both; overflow: hidden; }
+.p_center .path { float: left; margin: 0px 0px 0px 10px; padding: 0px; }
+.p_center .path ul { margin: 0px; padding: 0px; list-style: outside none none; }
+.p_center .path ul li { float: left; margin-right: 10px; }
+.p_center .path ul li.line { font-family: "����"; margin-top: 2px; color: rgb(204, 204, 204); }
+.p_center .path ul li a { text-decoration: none; color: rgb(68, 68, 68); }
+.p_center .path ul li a:hover { color: rgb(153, 153, 153); }
+.p_center .listmenu { float: right; margin: 0px; padding: 0px; }
+.p_center .listmenu ul { margin: 0px; padding: 0px; list-style: outside none none; }
+.p_center .listmenu ul li { float: left; margin: 0px 15px; }
+.p_center .listmenu ul li a { display: block; height: 48px; text-decoration: none; color: rgb(68, 68, 68); }
+.p_center .listmenu ul li a:hover { border-bottom: 2px solid rgb(221, 68, 65); font-weight: bold; }
+.p_center .listmenu ul li a.hh { border-bottom: 2px solid rgb(221, 68, 65); font-weight: bold; }
+.listbanner { width: 100%; height: 92px; background: rgb(0, 0, 0) none repeat scroll 0% 0%; margin: 0px; }
+.listbanner .midmage { position: relative; z-index: 2; width: 1382px; left: 50%; margin: 0px 0px 0px -500px; height: 92px; background: transparent url('listbanner.jpg') no-repeat scroll 0% 0%; overflow: hidden; }
+.subnav { position: relative; top: 0px; z-index: 100; display: none; overflow: hidden; }
+.subnav ul { list-style: outside none none; margin: 0px; padding: 0px; overflow: hidden; clear: both; }
+.subnav ul li { float: left; }
+.subnav ul li a { display: block; text-align: center; padding: 15px 20px; text-decoration: none; color: rgb(255, 255, 255); font-size: 14px; background: rgb(221, 67, 65) none repeat scroll 0% 0%; }
+.subnav ul li a:hover { background: rgb(202, 62, 59) none repeat scroll 0% 0%; }
+.footer { width: 100%; padding: 20px 0px; margin: 0px; border-top: 1px solid rgb(231, 228, 228); font-size: 12px; color: rgb(127, 127, 127); }
+.footer .ftinfo { width: 1000px; margin: 0px auto; text-align: center; }
+.footer .ftinfo p { height: 14px; line-height: 14px; }
+.footer .ftinfo p a { color: rgb(127, 127, 127); margin: 0px 10px; text-decoration: none; }
+.footer .ftinfo p a:hover { color: rgb(35, 35, 35); }
+.cont { width: 1000px; margin: 30px auto; font-size: 14px; color: rgb(121, 121, 121); overflow: hidden; }
+.cont p { margin: 10px 0px 0px; padding: 0px; line-height: 30px; }
+.cont ol { list-style: outside none none; padding: 0px; margin: 0px; }
+.cont ol li { padding-left: 15px; margin-bottom: 5px; background: transparent url('newsico.gif') no-repeat scroll left 6px; }
+.cont h3 { margin: 0px; padding: 0px; }
+.cont h4 { margin: 15px 0px 6px; padding: 0px; }
+.cont ul { list-style: outside none none; margin: 0px; padding: 0px; }
+/* ::::: http://www.beinterest.cn/biqu_mf/style/css.css ::::: */
+
+body { font-family: "Microsoft Yahei" ! important; margin: 0px; padding: 0px; }
+img { border: 0px none; }
+.top_leader { width: 100%; background: rgb(242, 242, 242) none repeat scroll 0% 0%; }
+.t_center { width: 1000px; height: 34px; line-height: 34px; color: rgb(128, 128, 128); font-size: 12px; margin: 0px auto; overflow: hidden; clear: both; }
+.t_center .left_l { float: left; }
+.t_center .right_l { float: right; }
+.t_center .right_l ul { margin: 0px; padding: 0px; list-style: outside none none; }
+.t_center .right_l ul li { float: left; }
+.t_center .right_l ul li.line { width: 1px; height: 34px; background: transparent url('t_line.gif') no-repeat scroll 0% 0%; }
+.t_center .right_l ul li a { text-decoration: none; color: rgb(128, 128, 128); margin: 0px 20px; }
+.t_center .right_l ul li a:hover { color: rgb(221, 68, 65); }
+.nav { width: 1000px; height: 82px; line-height: 82px; margin: 0px auto; clear: both; }
+.nav .lg { margin: auto; float: left; height: 82px; }
+.nav .menu { float: right; font-size: 16px; }
+.menu ul { list-style: outside none none; padding: 0px; margin: 0px; }
+.menu ul li { float: left; height: 82px; line-height: 82px; }
+.menu ul li a { display: block; color: rgb(65, 65, 65); text-decoration: none; padding: 0px 20px; }
+.menu ul li a:hover { background: rgb(221, 67, 65) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.menu ul li a.hh { background: rgb(221, 67, 65) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.pathandmenu { position: relative; z-index: 1; margin: 10px 0px 20px; padding: 0px; width: 100%; height: 50px; line-height: 50px; border-bottom: 1px solid rgb(231, 228, 228); }
+.p_center { width: 1000px; height: 50px; margin: 0px auto; font-size: 14px; color: rgb(153, 153, 153); background: transparent url('l.gif') no-repeat scroll left center; clear: both; overflow: hidden; }
+.p_center .path { float: left; margin: 0px 0px 0px 10px; padding: 0px; }
+.p_center .path ul { margin: 0px; padding: 0px; list-style: outside none none; }
+.p_center .path ul li { float: left; margin-right: 10px; }
+.p_center .path ul li.line { font-family: "����"; margin-top: 2px; color: rgb(204, 204, 204); }
+.p_center .path ul li a { text-decoration: none; color: rgb(68, 68, 68); }
+.p_center .path ul li a:hover { color: rgb(153, 153, 153); }
+.p_center .listmenu { float: right; margin: 0px; padding: 0px; }
+.p_center .listmenu ul { margin: 0px; padding: 0px; list-style: outside none none; }
+.p_center .listmenu ul li { float: left; margin: 0px 15px; }
+.p_center .listmenu ul li a { display: block; height: 48px; text-decoration: none; color: rgb(68, 68, 68); }
+.p_center .listmenu ul li a:hover { border-bottom: 2px solid rgb(221, 68, 65); font-weight: bold; }
+.p_center .listmenu ul li a.hh { border-bottom: 2px solid rgb(221, 68, 65); font-weight: bold; }
+.listbanner { width: 100%; height: 92px; background: rgb(0, 0, 0) none repeat scroll 0% 0%; margin: 0px; }
+.listbanner .midmage { position: relative; z-index: 2; width: 1382px; left: 50%; margin: 0px 0px 0px -500px; height: 92px; background: transparent url('listbanner.jpg') no-repeat scroll 0% 0%; overflow: hidden; }
+.subnav { position: relative; top: 0px; z-index: 100; display: none; overflow: hidden; }
+.subnav ul { list-style: outside none none; margin: 0px; padding: 0px; overflow: hidden; clear: both; }
+.subnav ul li { float: left; }
+.subnav ul li a { display: block; text-align: center; padding: 15px 20px; text-decoration: none; color: rgb(255, 255, 255); font-size: 14px; background: rgb(221, 67, 65) none repeat scroll 0% 0%; }
+.subnav ul li a:hover { background: rgb(202, 62, 59) none repeat scroll 0% 0%; }
+.footer { width: 100%; padding: 20px 0px; margin: 0px; border-top: 1px solid rgb(231, 228, 228); font-size: 12px; color: rgb(127, 127, 127); }
+.footer .ftinfo { width: 1000px; margin: 0px auto; text-align: center; }
+.footer .ftinfo p { height: 14px; line-height: 14px; }
+.footer .ftinfo p a { color: rgb(127, 127, 127); margin: 0px 10px; text-decoration: none; }
+.footer .ftinfo p a:hover { color: rgb(35, 35, 35); }
+.cont { width: 1000px; margin: 30px auto; font-size: 14px; color: rgb(121, 121, 121); overflow: hidden; }
+.cont p { margin: 10px 0px 0px; padding: 0px; line-height: 30px; }
+.cont ol { list-style: outside none none; padding: 0px; margin: 0px; }
+.cont ol li { padding-left: 15px; margin-bottom: 5px; background: transparent url('newsico.gif') no-repeat scroll left 6px; }
+.cont h3 { margin: 0px; padding: 0px; }
+.cont h4 { margin: 15px 0px 6px; padding: 0px; }
+.cont ul { list-style: outside none none; margin: 0px; padding: 0px; }

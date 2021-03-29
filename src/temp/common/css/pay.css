@@ -1,0 +1,563 @@
+@charset "utf-8";
+
+/* CSS Document */
+.CM_middle{
+    margin: 30px 0 0 0;
+}
+.pubwid {
+    margin: 0 auto 20px;
+    width: 1000px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+    margin-bottom: 14px;
+}
+
+.pay_container {
+    background: url(../images/pay/bg2.jpg) repeat-y scroll 203px 0 rgba(0, 0, 0, 0);
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+
+/*left*/
+
+.pay_left {
+    float: left;
+    width: 204px;
+    display: inline;
+    overflow: hidden;
+}
+
+.pay_left_div {
+    margin-bottom: 18px;
+}
+
+.pay_div_title {
+    background: #FBFBFB;
+    border-bottom: 1px solid #E4E4E4;
+    border-left: 1px solid #E4E4E4;
+    border-right: 1px solid #E4E4E4;
+    color: #7D7D7D;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 10px;
+}
+
+.pay_ul_type li {
+    height: 40px;
+    line-height: 40px;
+    text-indent: 4em;
+}
+
+.pay_ul_type li a {
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    font-family: "Arial", "瀹嬩綋";
+    color: #333333;
+}
+
+.pay_ul_type li a.active {
+    background-color: #BC3829;
+    background-position: 0 -40px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pay_ul_type li a.pay45 {
+    background: url(../images/pay/pay1.jpg) no-repeat;
+}
+
+.pay_ul_type li a.pay44 {
+    background: url(../images/pay/pay2.jpg?v2) no-repeat;
+}
+
+.pay_ul_type li a.pay49 {
+    background: url(../images/pay/pay3.jpg) no-repeat;
+}
+
+.pay_ul_type li a.pay9999 {
+    background: url(../images/pay/pay9999.jpg) no-repeat;
+}
+
+.pay_ul_type li a.pay94 {
+    background: url(../images/pay/pay2.jpg) no-repeat;
+}
+
+.pay_ul_type li a.pay20 {
+    background: url(../images/pay/pay4.jpg?v2) no-repeat;
+}
+
+.pay_ul_type li a.pay46 {
+    background: url(../images/pay/pay5.jpg) no-repeat;
+}
+
+.pay_ul_type li a.pay47 {
+    background: url(../images/pay/pay6.jpg) no-repeat;
+}
+
+.pay_ul_type li a.pay50 {
+    background: url(../images/pay/pay6.jpg) no-repeat;
+}
+
+.pay_ul_type li a.pay48 {
+    background: url(../images/pay/pay7.jpg) no-repeat;
+}
+
+.pay_ul_type li a.pay96 {
+    background: url(../images/pay/pay8.jpg) no-repeat;
+}
+
+.pay_ul_type li a.pay102 {
+    background: url(../images/pay9.jpg?v3) no-repeat;
+}
+
+.pay_ul_type li a.active {
+    background-color: #BC3829;
+    background-position: 0 -40px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pay_div_jilu a {
+    background: url(../images/pay/jilu.jpg) no-repeat;
+    display: block;
+    height: 50px;
+    text-indent: -999em;
+    width: 200px;
+    color: #333333;
+    cursor: pointer;
+    font-family: "Arial", "瀹嬩綋";
+    font-size: 12px;
+}
+
+
+/*right*/
+
+.pay_right {
+    border-bottom: 1px solid #E4E4E4;
+    border-right: 1px solid #E4E4E4;
+    float: right;
+    width: 795px;
+    display: inline;
+    overflow: hidden;
+    min-height: 500px;
+}
+
+.pay_div_title {
+    background: #FBFBFB;
+    border-bottom: 1px solid #E4E4E4;
+    border-left: 1px solid #E4E4E4;
+    border-right: 1px solid #E4E4E4;
+    color: #7D7D7D;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 10px;
+}
+
+.pay_right_top {
+    background: url(../images/pay/qian.jpg) no-repeat scroll 10px center #F5F5F5;
+    border: medium none;
+    padding-left: 40px;
+}
+
+.pay_infocon {
+    padding: 18px;
+}
+
+.pay_right_top strong {
+    color: #BC3829;
+    margin: 0 10px;
+}
+
+.pay_typecon {
+    margin: 0;
+    overflow: hidden;
+}
+
+.pay_typecon li {
+    clear: both;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.pay_typecon li label {
+    color: #333333;
+    float: left;
+    line-height: 32px;
+    padding-right: 10px;
+    text-align: right;
+    width: 170px;
+}
+
+.pay_typecon li span {
+    display: block;
+    /* float: left; */
+    line-height: 32px;
+    overflow: hidden;
+    padding: 1px 0;
+    width: 500px;
+}
+
+.pay_typecon li span.jine {
+    line-height: 27px;
+}
+
+.ver {
+    height: 18px;
+    line-height: 18px;
+    vertical-align: middle;
+}
+
+.pay_typecon li.selectradio span {
+    line-height: 24px;
+}
+
+.pay_typecon li.selectradio span em {
+    margin-right: 20px;
+    width: auto;
+}
+
+.pay_typecon li.selectradio span em input {
+    margin: 0;
+    padding: 0;
+}
+
+.pay_typecon li.seposition {
+    position: relative;
+}
+
+.bodyselect {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px;
+    width: 178px;
+}
+
+.pay_typecon li.seposition {
+    position: relative;
+}
+
+.pay_submit {
+    padding: 18px 0;
+    text-align: center;
+}
+
+.pay_div_remark h3 {
+    background: url(../images/pay/jingtang.jpg) no-repeat scroll left center rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #DDDDDD;
+    color: #04518C;
+    font-weight: normal;
+    line-height: 32px;
+    margin-bottom: 8px;
+    padding-left: 24px;
+}
+
+.pay_div_remark p {
+    color: #666666;
+    line-height: 22px;
+    padding: 2px 0;
+}
+
+.pay_div_remark p b {
+    color: #04518C;
+    margin-right: 5px;
+}
+
+
+/*闅愯棌閮ㄥ垎鏍峰紡*/
+
+.tanchu {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin: 0 auto;
+    width: 380px;
+}
+
+.wenxintitle {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #FFFFFF;
+    color: #333333;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    font-weight: 600;
+    height: 36px;
+    line-height: 36px;
+    position: relative;
+    text-indent: 0.5em;
+}
+
+.wenxintitle a {
+    position: absolute;
+    right: 8px;
+    text-indent: 0;
+    top: 10px;
+    color: #333333;
+    cursor: pointer;
+    font-family: "Arial", "瀹嬩綋";
+    font-size: 12px;
+}
+
+.tccon {
+    padding: 20px 40px 0;
+}
+
+.tccon h3 {
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.tccon table {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #DDDDDD #DDDDDD -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+
+.tccon table tr,
+.banktable tr {
+    display: table-row;
+}
+
+.tccon table td {
+    line-height: 22px;
+    padding: 3px 2px;
+    text-align: center;
+}
+
+.tccon table td.tds1 {
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    color: #666666;
+    width: 100px;
+}
+
+.tccon table td.tds2 {
+    border-bottom: 1px solid #DDDDDD;
+    color: #000000;
+}
+
+.btncon {
+    padding: 30px 0 20px;
+    text-align: center;
+}
+
+.btn3 {
+    background: url(../images/pay/back.jpg) no-repeat;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    font-weight: 500;
+    height: 32px;
+    line-height: 30px;
+    margin: 0 10px;
+    padding: 0 1px 2px;
+    text-align: center;
+    width: 90px;
+}
+
+.btn1,
+.backindex {
+    background: url(../images/pay/btn1.jpg) no-repeat;
+    border: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    font-weight: 500;
+    height: 32px;
+    line-height: 30px;
+    margin: 0 20px 0 0;
+    padding: 0 1px 2px;
+    text-align: center;
+    width: 90px;
+}
+
+.tanchucon {
+    background: url(../images/pay/shibai.jpg) no-repeat;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 30px 0 0 20px;
+    padding-left: 80px;
+}
+
+.tc1 {
+    background: url(../images/pay/tishi.jpg) no-repeat scroll left center;
+    padding-left: 60px;
+}
+
+.tanchucon p {
+    color: #999999;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.btncon {
+    padding: 30px 0 20px;
+    text-align: center;
+}
+
+
+/*杈撳叆妗嗘牱寮�*/
+
+.moneytext {
+    height: 28px;
+    width: 160px;
+    line-height: 28px;
+    padding: 0 8px;
+    border: 1px solid #CCCCCC;
+    background: #FFFFFF;
+    vertical-align: middle;
+}
+
+.pay_em {
+    cursor: pointer;
+    display: block;
+    padding: 2px 0 !important;
+    float: left;
+    width: 145px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.emwidth {
+    width: 80px;
+}
+
+.emauto {
+    width: auto;
+}
+
+.textwidth {
+    width: 80px;
+    margin-right: 18px;
+    margin-left: 8px;
+}
+
+.huoqu1 {
+    background: url(../images/pay/money.png) no-repeat 0 13px;
+    clear: both;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 35px;
+    padding-top: 8px;
+}
+
+.col {
+    color: #04518C;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.banktable td {
+    padding: 4px 0px;
+}
+
+.banktable input,
+.banktable select {
+    vertical-align: middle;
+}
+
+.banktable td img {
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.v5_setbank {
+    background: url(../images/pay/newpay_bg07.png) no-repeat center center;
+    color: #333333;
+    cursor: pointer;
+    display: block;
+    line-height: 24px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.v2_chongzhi {
+    background: #fffaf6;
+    border: 3px solid #ff730c;
+    padding: 20px 30px;
+    position: absolute;
+    z-index: 10000;
+}
+
+
+/*鏌ョ湅鍏呭€肩粨鏋�*/
+
+.tanchucon p {
+    color: #999999;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.tanchucon p b {
+    color: #04518c;
+}
+
+.chongru p {
+    color: #666666;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.chongru p.chongruinfo {
+    color: #c80000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px 0 24px;
+}
+
+.chongru p.btndiv {
+    padding: 20px 0;
+}
+
+
+/*鍏呭€紅able*/
+
+.pay_reord {
+    text-align: center;
+}
+
+.pay_reord table {
+    border: 1px solid #d0d0d0;
+    border-collapse: collapse;
+}
+
+.pay_reord th {
+    font: normal 14px "Microsoft Yahei";
+    padding: 12px 5px;
+    border: 1px solid #d0d0d0;
+}
+
+.pay_reord td {
+    padding: 8px 5px;
+    font: normal 12px "Microsoft Yahei";
+    border: 1px solid #d0d0d0;
+}
