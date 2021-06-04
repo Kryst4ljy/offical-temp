@@ -39,6 +39,18 @@ const common = [
   },
   {
     type: "Input",
+    name: "gameName",
+    message: "请输入游戏名：",
+    default: "逆火凌云",
+  },
+  {
+    type: "Input",
+    name: "gameBanner",
+    message: "请输入小banner：",
+    default: path.resolve(__dirname, "../temp/common/images/hd1.jpg"),
+  },
+  {
+    type: "Input",
     name: "banner",
     message: "请输入首页banner图片：",
     default: path.resolve(__dirname, "../temp/common/images/banner/banner.jpg"),
@@ -58,6 +70,7 @@ const commonDefault = {
   phone: "0571-56331507",
   admin: "陆诗云",
   ICP: "渝ICP备19004681号",
+  gameName: '逆火凌云',
 };
 
 module.exports = {

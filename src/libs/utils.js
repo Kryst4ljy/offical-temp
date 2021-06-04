@@ -24,7 +24,6 @@ async function readFile(URL, traget, defaultVal, answer) {
     const item = files[i];
     // 扫描一级目录
     const fileName = path.resolve(URL, `./${item}`);
-    // fileName.replace('\');
     const stat = fs.statSync(fileName);
     if (!stat.isDirectory() && /\.(html)$/.test(fileName)) {
       // 1.单独HTML文件
@@ -38,11 +37,24 @@ async function readFile(URL, traget, defaultVal, answer) {
     } else if (!stat.isDirectory() && item === "banner.jpg") {
       // 2.替换banner图片
       console.log(`替换banner：${chalk.red(fileName)}`);
-      await copyFile(answer["banner"].trim(), path.resolve(traget, `./${item}`).trim());
+      await copyFile(
+        answer["banner"].trim(),
+        path.resolve(traget, `./${item}`).trim()
+      );
     } else if (!stat.isDirectory() && item === "logo.png") {
       // 3.替换logo图片
       console.log(`替换logo：${chalk.red(fileName)}`);
-      await copyFile(answer["logo"].trim(), path.resolve(traget, `./${item}`).trim());
+      await copyFile(
+        answer["logo"].trim(),
+        path.resolve(traget, `./${item}`).trim()
+      );
+    } else if (!stat.isDirectory() && item === "hd1.jpg") {
+      // 3.2.替换小banner图片
+      console.log(`替换logo：${chalk.red(fileName)}`);
+      await copyFile(
+        answer["gameBanner"].trim(),
+        path.resolve(traget, `./${item}`).trim()
+      );
     } else if (stat.isDirectory()) {
       // 4.文件夹目录递归处理
       console.log(`复制目录：${chalk.green(fileName)}`);
